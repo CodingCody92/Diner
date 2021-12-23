@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    
+}
+
+header .logo {
+    font-weight: bolder;
+    font-size: 35px;
+    color: rgb(190, 18, 18);
+    border: 1px solid rgb(243, 243, 70);
+    padding: 5px;
+    font-family: 'Abril Fatface', cursive;
+    text-decoration: none;
+}
+
+header .logo:hover {
+    color: rgb(226, 24, 24);
+}
+
+header .navbar ul {
+    list-style: none;
+}
+
+header .navbar ul li {
+    /* display: inline-block; */
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color: #333;
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+header .navbar ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+header .navbar ul li > ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: rgb(247, 247, 247);
+    display: none;
+}
+
+header .navbar ul li > ul > li {
+    width: 100%;
+    border-top: 1px solid rgba(8, 8, 8, 0.1);
+}
+
+header .navbar ul li > ul > li > ul {
+    left: 200px;
+    top: 0;
+} 
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+    /* resets display */
+    display: initial;
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    font-size: 25px;
+    color: rgb(190, 18, 18);
+    cursor: pointer;
+    display: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+
+.display {
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+}
+
+.intro-container {
+    text-align: center;
+    margin: 10px 50px;
+    padding: 20px;
+}
+
+.intro {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(190, 18, 18);
+}
+
+.intro-statement {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media(max-width: 880px) {
+    header {
+        padding: 20px;
+    }
+
+    header label {
+        display: initial;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: 1px solid rgba(0,0,0,0.1);
+        display: none;
+    }
+
+    header .navbar ul li {
+        width: 100%;
+    }
+
+    header .navbar ul li > ul {
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li > ul > li {
+        background: #eee;
+    }
+
+    header .navbar ul li > ul > li > ul {
+        width: 100%;
+        left: 0;
+    }
+
+    #menu-bar:checked ~.navbar {
+        display: initial;
+    }
+}
