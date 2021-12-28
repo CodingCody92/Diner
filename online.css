@@ -1,0 +1,66 @@
+.order h3 {
+    text-align: center;
+    margin-top: 2.5em;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(190, 18, 18);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.order-img {
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.platform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order {
+    margin-top: 2.2em;
+}
+
+.order-btn .order-now {
+  text-decoration: none;
+  border: 1px solid #fff;
+  background: rgb(190, 18, 18);
+  color: #fff;
+  padding: 25px;
+  font-family: 'Oswald', sans-serif;
+  transition: ease-in 0.2s;
+}
+
+.order-btn .order-now:hover {
+   box-shadow: 1px 1px 1px 1px rgb(235, 224, 224);
+   background: rgb(243, 16, 16);
+}
+
+#uber-btn {
+  text-decoration: none;
+  border: 1px solid #fff;
+  background: rgb(24, 190, 18);
+  color: #fff;
+  padding: 25px;
+  font-family: 'Oswald', sans-serif;
+  transition: ease-in 0.2s;
+}
+
+#uber-btn:hover {
+    box-shadow: 1px 1px 1px 1px rgb(243, 243, 243);
+    background: rgb(51, 238, 44);
+}
+
+.foot {
+    margin-top: 3.3em;
+}
+
+
+@media(max-width: 550px) {
+    .order-img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}

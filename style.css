@@ -28,6 +28,7 @@ header .logo {
     padding: 5px;
     font-family: 'Abril Fatface', cursive;
     text-decoration: none;
+    letter-spacing: 4px;
 }
 
 header .logo:hover {
@@ -122,7 +123,42 @@ header label {
     align-items: center;
 }
 
+.foot {
+    /* position: fixed; */
+    background: rgb(221, 221, 212);
+    /* background-color:rgb(126, 126, 126) ; */
+    padding: 20px;
+    margin-top: 2.4em;
+    /* height: 12vh; */
+}
 
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social .social-img {
+    max-width: 24px;
+    max-height: 24px;
+    margin: 8px;
+}
+
+.social .social-img:hover {
+    background-color: rgb(245, 245, 245);
+    border-radius: 150px;
+}
+
+.foot-end {
+    text-align: center;
+    margin-top: 1.2em;
+}
+
+.foot-end p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-family: 'Great Vibes', cursive;
+}
 
 
 @media(max-width: 880px) {
