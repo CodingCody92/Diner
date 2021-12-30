@@ -16,12 +16,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="career.css">
     <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/3522/3522736.png">
-    <link rel="stylesheet" href="story.css">
 
 </head>
 
 <body>
+
     <header>
         <a class="logo" href="index.html">Zuri's Kitchen</a>
         <input type="checkbox" id="menu-bar">
@@ -48,40 +50,57 @@
         </nav>
     </header>
 
-    <section class="about-container">
-        <h2>Our Short Story</h2>
-        <div class="story">
-            <img class="owner"
-                src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_04/3446127/210129-black-owned-yelp-restaurants-kb-ew-1247p.jpg"
-                alt="">
-        </div>
 
-        <div class="story-text">
-            <p>Zuri's was founded in 2012 by Zuri Carter, Chef Adrian Parker, and partner Drew Harvey. The
-                restaurant was named after Zuri's grandmother, Ms. Zuri Mae Carter, and the magic she could do in the
-                kitchen, with recipes from the bayous of Louisiana. From
-                the very
-                beginning, our goal has been to provide exceptional, homemade comfort food inspired by the rich
-                traditions of Southern cuisine.</p>
 
-            <p>All our dishes are made with fresh ingredients that are sourced locally whenever possible and delivered
-                to the kitchen several times each week. We love the idea of having breakfast for dinner, so we offer
-                brunch all day every day. Brunch is America's favorite meal, and Ellen's has become the local favorite
-                place to get it. After nearly 9 years of service and hosting more than 1 million guests, we think you'll
-                agree.</p>
-
-            <p>Pictured (Zuri Carter, left | Chef Adrian Parker, right)</p>
+    <section class="menu">
+        <div class="menu-container">
+            <p id="menu-text">Careers</p>
         </div>
     </section>
 
+    <div class="career-info">
+        <p id="resume">Send Your Resume</p>
+        <p>Thank you for your interest in joining our team. Please submit your information and a copy of your resume for
+            consideration.</p>
+    </div>
 
+    <div class="career-form">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputName1" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleInputName1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputNumber1" class="form-label">Phone Number</label>
+                <input type="number" required class="form-control" id="exampleInputNumber1">
+            </div>
 
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+            </div>
 
+            <div class="mb-3">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Select a Location</option>
+                    <option value="1">Dallas</option>
+                    <option value="2">Richardson</option>
+                </select>
+            </div>
 
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Upload Your Resume</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
 
-
-
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
 
 
     <footer class="foot">
