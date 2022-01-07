@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -22,11 +25,12 @@ header {
 
 header .logo {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(190, 18, 18);
     border: 3px solid rgb(243, 243, 70);
     padding: 5px;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Luxurious Roman', cursive;
+    /* font-family: 'Abril Fatface', cursive; */
     /* font-family: 'Oswald', sans-serif; */
     text-decoration: none;
     letter-spacing: 4px;
