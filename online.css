@@ -1,3 +1,44 @@
+:root {
+    --primary-color: rgba(44,44,44,0.75)
+}
+
+.online {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 50vh;
+    position: relative;
+}
+
+.online:before {
+    content: '';
+    background: url(https://images.unsplash.com/photo-1600728619239-d2a73f7aa541?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+
+.online-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.online p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+}
+
 .order h3 {
     text-align: center;
     margin-top: 2.5em;

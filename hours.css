@@ -67,10 +67,76 @@
 }
 
 .locations {
-    max-width: 400px;
-    max-height: 400px;
-    background-color: rgb(97, 149, 197);
-    margin: 30px;
+    max-width: 1200px;
+    max-height: 1200px;
+    background-color: rgb(220, 221, 221);
+    border: 5px solid rgb(97, 97, 97);
+    margin: 4em;
     color: rgb(29, 29, 29);
     text-align: center;
+    padding: 60px;
 }
+
+.locations h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.locations p {
+    font-family: 'Oswald', sans-serif;
+}
+
+.locations .btn {
+    background-color: rgb(190, 18, 18);
+    margin-bottom: 10px;
+    color: rgb(247, 247, 247);
+}
+
+.locations .btn:hover {
+  background-color: rgb(245, 14, 14);
+}
+
+.company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.company #flag {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+@media(max-width: 970px) {
+.locations-container {
+    flex-wrap: wrap;
+ }
+
+}
+
+@media(max-width: 545px) {
+    .locations h5 {
+       font-size: 25px;
+    }
+}
+
+@media(max-width: 545px) {
+    .locations p, .btn {
+       font-size: 15px;
+    }
+}
+
+@media(max-width: 545px) {
+    .locations p {
+       font-size: 15px;
+    }
+}
+
+
+
+

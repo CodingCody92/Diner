@@ -17,6 +17,10 @@
     text-align: center;
 }
 
+.career-info p {
+    font-weight: bold;
+}
+
 #resume {
     font-size: 30px;
     /* text-align: center; */
@@ -30,6 +34,10 @@
     align-items: center;
     flex-direction: column;
     padding: 10px;
+}
+
+.career-form label {
+    color: rgb(39, 39, 39);
 }
 
 .career-form input[type = text] {

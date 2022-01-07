@@ -37,11 +37,11 @@
                     </ul>
                 </li>
                 <li><a href="menu.html">Our Menus</a></li>
-                <li><a href="#">About Us</a>
+                <li><a href="ourstory.html">About Us</a>
                     <ul>
                         <li><a href="ourstory.html">Our Story</a></li>
                         <li><a href="careers.html">Careers</a></li>
-                        <li><a href="#">Hours & Locations</a></li>
+                        <li><a href="hours.html">Hours & Locations</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Contact</a></li>
@@ -49,11 +49,22 @@
         </nav>
     </header>
 
+    <div class="food-alert">
+        <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+            <p>Review us on yelp, and get a 10% discount on your bill!</p>
+            <p>Help guest by leaving a review on yelp and receive a 10% discount on your next meal!</p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </div>
+
+
     <section class="hours">
         <div class="hours-container">
             <p id="hours-text">Hours & Locations</p>
         </div>
     </section>
+
+
 
     <div class="hours-explain">
         <h3>Our Locations</h3>
@@ -68,12 +79,16 @@
 
 
 
+
+
+
+
     <div class="locations-container">
         <div class="locations">
             <h5>Dallas</h5>
             <p>3043 Forest Lane</p>
             <p>Dallas, TX, 75021 </p>
-            <button>Get Directions</button>
+            <a href="maps.google.com"><button class="btn">&rdsh;Get Directions</button></a>
             <p>214.832.1156</p>
             <p>Sunday: 7:00am - 3:00pm </p>
             <p>Mon-Fri: 9:00am - 8:00pm </p>
@@ -81,11 +96,11 @@
         </div>
 
         <div class="locations">
-            <h5>Dallas</h5>
-            <p>3043 Forest Lane</p>
-            <p>Dallas, TX, 75021 </p>
-            <button>Get Directions</button>
-            <p>214.832.1156</p>
+            <h5>Richardson</h5>
+            <p>740 Live Oak Dr.</p>
+            <p>Richardson, TX, 75080 </p>
+            <a href="maps.google.com"><button class="btn">&rdsh;Get Directions</button></a>
+            <p>972.340.9099</p>
             <p>Sunday: 7:00am - 3:00pm </p>
             <p>Mon-Fri: 9:00am - 8:00pm </p>
             <p>Saturday: 7:00am - 9:00pm </p>
@@ -97,7 +112,7 @@
 
 
 
-    <!-- <footer class="foot">
+    <footer class="foot">
         <div class="social">
             <img class="social-img" src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="">
             <img class="social-img" src="https://cdn-icons-png.flaticon.com/512/1384/1384017.png" alt="">
@@ -106,8 +121,12 @@
         <div class="foot-end">
             <p>Cravings | 3043 Forest Ln, Dallas, TX, 75021 | 214.832.1156</p>
         </div>
+        <div class="company">
+            <p>Marathon Web Design <img id="flag" src="https://cdn-icons-png.flaticon.com/512/2164/2164609.png" alt="">
+            </p>
+        </div>
 
-    </footer> -->
+    </footer>
 
 
 
@@ -119,6 +138,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
