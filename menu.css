@@ -97,3 +97,14 @@
         font-size: 50px;
     }
 }
+
+@media(max-width: 535px) {
+    .menu {
+        height: 30vh;
+    }
+
+    .menu p {
+        font-size: 40px;
+        margin-bottom: 200px;
+    }
+}
