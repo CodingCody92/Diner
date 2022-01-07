@@ -106,3 +106,12 @@
     }
 }
 
+@media(max-width: 525px) {
+    .online {
+        height: 30vh;
+    }
+    .online p {
+        font-size: 50px;
+        margin-bottom: 200px;
+    }
+}
