@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgba(44,44,44,0.75)
+    --primary-color: rgba(44, 44, 44, 0.75)
 }
 
 .online {
@@ -21,7 +21,6 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    
 }
 
 .online-container {
@@ -48,6 +47,10 @@
     font-weight: bold;
 }
 
+.order p {
+    text-align: center;
+}
+
 .order-img {
     max-height: 500px;
     max-width: 500px;
@@ -65,28 +68,28 @@
 }
 
 .order-btn .order-now {
-  text-decoration: none;
-  border: 1px solid #fff;
-  background: rgb(190, 18, 18);
-  color: #fff;
-  padding: 25px;
-  font-family: 'Oswald', sans-serif;
-  transition: ease-in 0.2s;
+    text-decoration: none;
+    border: 1px solid #fff;
+    background: rgb(190, 18, 18);
+    color: #fff;
+    padding: 25px;
+    font-family: 'Oswald', sans-serif;
+    transition: ease-in 0.2s;
 }
 
 .order-btn .order-now:hover {
-   box-shadow: 1px 1px 1px 1px rgb(235, 224, 224);
-   background: rgb(243, 16, 16);
+    box-shadow: 1px 1px 1px 1px rgb(235, 224, 224);
+    background: rgb(243, 16, 16);
 }
 
 #uber-btn {
-  text-decoration: none;
-  border: 1px solid #fff;
-  background: rgb(24, 190, 18);
-  color: #fff;
-  padding: 25px;
-  font-family: 'Oswald', sans-serif;
-  transition: ease-in 0.2s;
+    text-decoration: none;
+    border: 1px solid #fff;
+    background: rgb(24, 190, 18);
+    color: #fff;
+    padding: 25px;
+    font-family: 'Oswald', sans-serif;
+    transition: ease-in 0.2s;
 }
 
 #uber-btn:hover {
@@ -97,7 +100,6 @@
 .foot {
     margin-top: 3.3em;
 }
-
 
 @media(max-width: 550px) {
     .order-img {
